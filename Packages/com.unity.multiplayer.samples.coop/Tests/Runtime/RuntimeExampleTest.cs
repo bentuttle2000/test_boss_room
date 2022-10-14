@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
+using Unity.Netcode;
 
 namespace Unity.Multiplayer.Samples.Utilities.Tests.Runtime
 {

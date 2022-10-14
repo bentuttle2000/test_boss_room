@@ -1,7 +1,6 @@
 {
-
     "name": "Unity.BossRoom.Tests.Runtime",
-    "rootNamespace": "",
+    "rootNamespace": "Unity.Multiplayer.Samples.BossRoom.Tests.Runtime",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
@@ -10,7 +9,8 @@
         "Unity.BossRoom.Gameplay",
         "Unity.BossRoom.Infrastructure",
         "VContainer",
-        "VContainer.EnableCodeGen"
+        "VContainer.EnableCodeGen",
+        "Unity.BossRoom.Utils"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -21,8 +21,7 @@
     ],
     "autoReferenced": false,
     "defineConstraints": [
-        "UNITY_INCLUDE_TESTS",
-	    "!UNITY_SERVER"
+        "UNITY_INCLUDE_TESTS"
     ],
     "versionDefines": [],
     "noEngineReferences": false
